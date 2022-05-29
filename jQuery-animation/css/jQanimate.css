@@ -1,0 +1,31 @@
+.container {
+    width: 40px;
+    height: 50px; 
+    background-color: #DDD;
+    position: absolute;
+    top: -500px;
+}
+span {
+    font-size: 2em;
+    font-weight: 700;
+    z-index: 1;
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 175px;
+    left: 100px;
+    font-family:Tahoma, sans-serif;
+    display: none;
+}
+.container > div {
+    display: flex;
+    flex-wrap: wrap;
+} 
+.first div, .second div {
+    width: 0px;
+    height: 0px;
+    margin: 50px;
+    background-color: blue;
+    position:relative;
+}
+
